@@ -18,6 +18,17 @@ https://docs.blast.io/building/bridges/testnet
 
 # ONCE YOUR WALLET IS FUNDED THEN PROCEED TO EXECUTOR DEPLOYMENT
 
+# CREATE SCREEN 
+    
+    sudo apt install git -y
+
+    sudo apt install screen
+
+    screen -S T3RN
+
+    
+# DEPLOY EXECUTOR
+
     wget https://github.com/t3rn/executor-release/releases/download/v0.53.1/executor-linux-v0.53.1.tar.gz
     tar -xvzf executor-linux-v0.53.1.tar.gz
     cd executor/executor/bin
@@ -41,6 +52,9 @@ https://docs.blast.io/building/bridges/testnet
     "unit": ["https://unichain-sepolia.drpc.org/", "https://sepolia.unichain.org/"]
     }'
     ./executor
+
+# DETACH SCREEN 
+CTRL A+D
 
   THATS ALL, 
   FOLLOW ME ON TWITTER FOR SWIFT UPDATES  https://x.com/Airdropbuzzz
