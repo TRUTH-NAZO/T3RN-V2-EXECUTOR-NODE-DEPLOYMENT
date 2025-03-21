@@ -38,7 +38,7 @@ https://docs.blast.io/building/bridges/testnet
     export EXECUTOR_PROCESS_ORDERS=true
     export EXECUTOR_PROCESS_CLAIMS=true
     export PRIVATE_KEY_LOCAL= ADD YOUR PRIVATE KEY
-    export ENABLED_NETWORKS='base-sepolia,optimism-sepolia,l2rn,blast-sepolia,arb-sepolia'
+    export ENABLED_NETWORKS='base-sepolia,optimism-sepolia,l2rn,unichain-sepolia,arb-sepolia'
     export EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=true
     export EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
     export EXECUTOR_ENABLE_BATCH_BIDING=true
