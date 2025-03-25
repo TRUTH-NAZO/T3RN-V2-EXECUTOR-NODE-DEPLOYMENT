@@ -29,8 +29,8 @@ https://docs.blast.io/building/bridges/testnet
     
 # DEPLOY EXECUTOR
 
-    wget https://github.com/t3rn/executor-release/releases/download/v0.58.0/executor-linux-v0.58.0.tar.gz
-    tar -xvzf executor-linux-v0.58.0.tar.gz
+    wget https://github.com/t3rn/executor-release/releases/download/v0.59.0/executor-linux-v0.59.0.tar.gz
+    tar -xvzf executor-linux-v0.59.0.tar.gz
     cd executor/executor/bin
     export ENVIRONMENT=testnet
     export LOG_LEVEL=debug
