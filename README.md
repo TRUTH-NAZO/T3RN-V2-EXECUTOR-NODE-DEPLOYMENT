@@ -29,16 +29,16 @@ https://docs.blast.io/building/bridges/testnet
     
 # DEPLOY EXECUTOR
 
-    wget https://github.com/t3rn/executor-release/releases/download/v0.59.0/executor-linux-v0.59.0.tar.gz
-    tar -xvzf executor-linux-v0.59.0.tar.gz
+    wget https://github.com/t3rn/executor-release/releases/download/v0.60.0/executor-linux-v0.60.0.tar.gz
+    tar -xvzf executor-linux-v0.60.0.tar.gz
     cd executor/executor/bin
     export ENVIRONMENT=testnet
     export LOG_LEVEL=debug
     export LOG_PRETTY=false
     export EXECUTOR_PROCESS_ORDERS=true
     export EXECUTOR_PROCESS_CLAIMS=true
-    export PRIVATE_KEY_LOCAL= ADD YOUR PRIVATE KEY
-    export ENABLED_NETWORKS='base-sepolia,optimism-sepolia,l2rn,unichain-sepolia,arb-sepolia'
+    export PRIVATE_KEY_LOCAL=
+    export ENABLED_NETWORKS='base-sepolia,optimism-sepolia,l2rn,unichain-sepolia,arb-sepolia,blast-sepolia'
     export EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=true
     export EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
     export EXECUTOR_ENABLE_BATCH_BIDING=true
@@ -48,6 +48,7 @@ https://docs.blast.io/building/bridges/testnet
     "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
     "arbt": ["https://arbitrum-sepolia.drpc.org/", "https://sepolia-rollup.arbitrum.io/rpc"],
     "bast": ["https://base-sepolia-rpc.publicnode.com/", "https://base-sepolia.drpc.org/"],
+    "blst": ["https://sepolia.blast.io/", "https://blast-sepolia.drpc.org/"],
     "opst": ["https://sepolia.optimism.io/", "https://optimism-sepolia.drpc.org/"],
     "unit": ["https://unichain-sepolia.drpc.org/", "https://sepolia.unichain.org/"]
     }'
@@ -57,4 +58,4 @@ https://docs.blast.io/building/bridges/testnet
 CTRL A+D
 
   THATS ALL, 
-  FOLLOW ME ON TWITTER FOR SWIFT UPDATES  https://x.com/Airdropbuzzz
+  FOLLOW ME ON TWITTER FOR SWIFT UPDATES  https://x.com/0x_nazo
