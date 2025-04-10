@@ -46,11 +46,12 @@ https://docs.blast.io/building/bridges/testnet
     export EXECUTOR_MAX_L3_GAS_PRICE=1000
     export RPC_ENDPOINTS='{
     "l2rn": ["https://t3rn-b2n.blockpi.network/v1/rpc/public", "https://b2n.rpc.caldera.xyz/http"],
-    "arbt": ["https://arbitrum-sepolia.drpc.org/", "https://sepolia-rollup.arbitrum.io/rpc"],
-    "bast": ["https://base-sepolia-rpc.publicnode.com/", "https://base-sepolia.drpc.org/"],
-    "blst": ["https://sepolia.blast.io/", "https://blast-sepolia.drpc.org/"],
-    "opst": ["https://sepolia.optimism.io/", "https://optimism-sepolia.drpc.org/"],
-    "unit": ["https://unichain-sepolia.drpc.org/", "https://sepolia.unichain.org/"]
+    "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
+    "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
+    "blst": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org"],
+    "mont": ["https://testnet-rpc.monad.xyz"],
+    "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
+    "unit": ["https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"]
     }'
     ./executor
 
