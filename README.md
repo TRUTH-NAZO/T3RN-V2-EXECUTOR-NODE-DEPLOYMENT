@@ -29,8 +29,8 @@ https://docs.blast.io/building/bridges/testnet
     
 # DEPLOY EXECUTOR
 
-    wget https://github.com/t3rn/executor-release/releases/download/v0.61.0/executor-linux-v0.61.0.tar.gz
-    tar -xvzf executor-linux-v0.61.0.tar.gz
+    wget https://github.com/t3rn/executor-release/releases/download/v0.63.1/executor-linux-v0.63.1.tar.gz
+    tar -xvzf executor-linux-v0.63.1.tar.gz
     cd executor/executor/bin
     export ENVIRONMENT=testnet
     export LOG_LEVEL=debug
@@ -44,12 +44,12 @@ https://docs.blast.io/building/bridges/testnet
     export EXECUTOR_ENABLE_BATCH_BIDING=true
     export EXECUTOR_PROCESS_BIDS_ENABLED=true
     export EXECUTOR_MAX_L3_GAS_PRICE=1000
+    export NETWORKS_DISABLED='monad-testnet'
     export RPC_ENDPOINTS='{
     "l2rn": ["https://t3rn-b2n.blockpi.network/v1/rpc/public", "https://b2n.rpc.caldera.xyz/http"],
     "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
     "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
     "blst": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org"],
-    "mont": ["https://testnet-rpc.monad.xyz"],
     "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
     "unit": ["https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"]
     }'
